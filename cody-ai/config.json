@@ -1,0 +1,83 @@
+{
+  "config": {
+    "proxy": "",
+    "codebase": "",
+    "customHeaders": {},
+    "useContext": "blended",
+    "debugVerbose": false,
+    "debugFilter": null,
+    "telemetryLevel": "all",
+    "autocomplete": true,
+    "autocompleteLanguages": {
+      "*": true
+    },
+    "chatPreInstruction": "",
+    "editPreInstruction": "",
+    "commandCodeLenses": false,
+    "autocompleteAdvancedProvider": null,
+    "autocompleteAdvancedModel": null,
+    "autocompleteCompleteSuggestWidgetSelection": true,
+    "autocompleteFormatOnAccept": false,
+    "autocompleteDisableInsideComments": false,
+    "codeActions": true,
+    "commandHints": true,
+    "internalUnstable": false,
+    "autocompleteExperimentalGraphContext": null,
+    "experimentalSimpleChatContext": true,
+    "experimentalSymfContext": true,
+    "experimentalCommitMessage": true,
+    "experimentalNoodle": false,
+    "experimentalURLContext": false,
+    "experimentalGuardrails": false,
+    "experimentalTracing": false,
+    "experimentalOllamaChat": true,
+    "experimentalSupercompletions": false,
+    "experimentalChatContextRanker": false,
+    "experimentalGithubAccessToken": "",
+    "autocompleteExperimentalHotStreak": false,
+    "autocompleteExperimentalOllamaOptions": {
+      "url": "http://localhost:11434",
+      "model": "codellama:7b-code"
+    },
+    "autocompleteExperimentalSmartThrottle": false,
+    "isRunningInsideAgent": false,
+    "autocompleteTimeouts": {},
+    "accessToken": "sgp_a0d7ccb4f752ea73_d4a509300615a41508cf903a236d52cebf0d9bcd",
+    "serverEndpoint": "https://sourcegraph.com/"
+  },
+  "authStatus": {
+    "endpoint": "https://sourcegraph.com/",
+    "isDotCom": true,
+    "isLoggedIn": true,
+    "showInvalidAccessTokenError": false,
+    "authenticated": true,
+    "hasVerifiedEmail": true,
+    "requiresVerifiedEmail": true,
+    "siteHasCodyEnabled": true,
+    "siteVersion": "276814_2024-06-04_5.4-d7f3e542cf52",
+    "userCanUpgrade": true,
+    "username": "izsalafandi-irvni",
+    "primaryEmail": "izsalafandi@gmail.com",
+    "displayName": "Izsal Qurlinas Afandi",
+    "avatarURL": "https://lh3.googleusercontent.com/a/ACg8ocK8ZT5cHbFkDYvtbDSKBfDPNB1bIsjemo7GwEocip63AMuHNgIp=s96-c",
+    "codyApiVersion": 1,
+    "configOverwrites": {
+      "chatModel": "anthropic/claude-3-sonnet-20240229",
+      "chatModelMaxTokens": 12000,
+      "fastChatModel": "anthropic/claude-3-haiku-20240307",
+      "fastChatModelMaxTokens": 12000,
+      "completionModel": "fireworks/starcoder",
+      "completionModelMaxTokens": 9000,
+      "provider": "sourcegraph",
+      "smartContextWindow": true
+    }
+  },
+  "anonymousUserID": "55826396-711a-4848-85ff-bef9abc617ec",
+  "extensionDetails": {
+    "ide": "VSCode",
+    "ideExtensionType": "Cody",
+    "platform": "macos",
+    "arch": "aarch64",
+    "version": "1.20.1"
+  }
+}

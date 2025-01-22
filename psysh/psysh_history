@@ -1,0 +1,4 @@
+_HiStOrY_V2_
+\134App\134Models\134User::create(['name'\040=>\040'izsal\040qurlinas\040afandi',\040'email'\040=>\040'izsalafandi@gmail.com',\040'password'\040=>\040bcrypt('password')]);
+\134App\134Models\134User::create(['name'\040=>\040'Izsal\040Qurlinas\040Afandi',\040'email'\040=>\040'iqurlinas@gmail.com',\040'password'\040=>\040bcrypt('password')]);
+exit

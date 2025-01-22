@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "coc-python": ">=1.2.13",
+    "coc-tsserver": ">=2.1.4",
+    "coc-json": ">=1.9.2",
+    "coc-html-css-support": ">=0.4.1",
+    "coc-css": ">=2.1.0",
+    "coc-yaml": ">=1.9.0",
+    "coc-pydocstring": ">=0.10.0",
+    "coc-sql": ">=0.11.0"
+  }
+}

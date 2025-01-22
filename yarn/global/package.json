@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "create-astro": "^4.10.0",
+    "create-next-app": "^14.2.11",
+    "create-strapi-app": "^5.4.1"
+  }
+}
