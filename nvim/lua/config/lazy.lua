@@ -20,7 +20,7 @@ require("lazy").setup({
     {
       "LazyVim/LazyVim",
       opts = {
-        colorscheme = "everforest",
+        colorscheme = "tokyonight",
       },
       import = "lazyvim.plugins",
     },
@@ -35,6 +35,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.editor.navic" },
     -- import/override with your plugins
     { import = "plugins" },
+    -- add plugins tokyonight
+    { "folke/tokyonight.nvim" },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
@@ -45,10 +47,10 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "ayu" } },
+  install = { colorscheme = { "tokyonight" } },
   checker = {
     enabled = true, -- check for plugin updates periodically
-    notify = false, -- notify on update
+    notify = false, -- notify on update:
   }, -- automatically check for plugin updates
   performance = {
     rtp = {

@@ -62,9 +62,11 @@ local plugins = {
     },
   },
 
+  -- theme for tokyonight
+  { "folke/tokyonight.nvim", enabled = true },
+
   -- disable trouble
   { "catppuccin/nvim", enabled = false },
-  { "folke/tokyonight.nvim", enabled = false },
   { "folke/flash.nvim", enabled = false },
   { "nvim-neotest/neotest", enabled = false },
   { "mfussenegger/nvim-dap", enabled = false },
